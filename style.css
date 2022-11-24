@@ -1,7 +1,6 @@
 .main {
     margin: auto;
-    width: 640px; 
-    padding: 50px;
-    font-family: 'Lexend Deca', sans-serif; 
-    color: #2E475D;    
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px; 
 }
