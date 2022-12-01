@@ -2,4 +2,4 @@ $("#home").click(function () {
 	$(".slide").toggle();
 });
 
-document.createElement("FRFR");
+customElements.define("codingdude-gravatar", class extends HTMLButtonElement {});
