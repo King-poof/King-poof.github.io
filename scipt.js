@@ -2,7 +2,7 @@ $("#home").click(function () {
 	$(".slide").toggle();
 });
 
-class LOL extends HTMLElement {
+class CodingDudeGravatar extends HTMLElement {
     constructor() {
       super()
       this.addEventListener('click', e => {
@@ -11,4 +11,4 @@ class LOL extends HTMLElement {
       this.innerText="Hello There!"
     }
   }
-  window.customElements.define('frfr', LOL);
+  window.customElements.define('codingdude-gravatar', CodingDudeGravatar);
