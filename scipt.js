@@ -2,4 +2,13 @@ $("#home").click(function () {
 	$(".slide").toggle();
 });
 
-customElements.define("frfr", class extends HTMLButtonElement {});
+class LOL extends HTMLElement {
+    constructor() {
+      super()
+      this.addEventListener('click', e => {
+          alert('You Clicked Me!')
+      });
+      this.innerText="Hello There!"
+    }
+  }
+  window.customElements.define('frfr', LOL);
